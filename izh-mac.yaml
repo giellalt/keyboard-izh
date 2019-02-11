@@ -1,51 +1,51 @@
-### Generated from en-t-k0-osx-extended.xml on 2017-11-24 at 10:25.
-internalName: izh-win
+### Generated from fi-t-k0-osx-extended.xml on 2019-02-11 at 07:47.
+internalName: izh_FI-mac
 
 displayNames:
   izh: Ingrian
   en: Ingrian
 
-locale: en
+locale: izh
 
-supportedTargets: [win, x11, svg]
+supportedTargets: [osx, x11, svg]
 
 modes:
   # default
   iso-default: |
-    ` 1 2 3 4 5 6 7 8 9 0 - =
-    q w e r t y u i o p [ ]
-    a s d f g h j k l ; ' \
-    § z x c v b n m , . /
+    < 1 2 3 4 5 6 7 8 9 0 + ´
+    q w e r t y u i o p å ¨
+    a s d f g h j k l ö ä '
+    § z x c v b n m , . -
   # shift+caps?
   iso-shift: |
-    ~ ! @ # $ % ^ & * ( ) _ +
-    Q W E R T Y U I O P { }
-    A S D F G H J K L : " |
-    ± Z X C V B N M < > ?
+    > ! " # € % & / ( ) = ? `
+    Q W E R T Y U I O P Å ˆ
+    A S D F G H J K L Ö Ä *
+    ° Z X C V B N M ; : _
   # caps
   iso-caps: |
-    ` 1 2 3 4 5 6 7 8 9 0 - =
-    Q W E R T Y U I O P [ ]
-    A S D F G H J K L ; ' \
-    § Z X C V B N M , . /
+    < 1 2 3 4 5 6 7 8 9 0 + ´
+    Q W E R T Y U I O P Å ¨
+    A S D F G H J K L Ö Ä '
+    § Z X C V B N M , . -
   # opt
   iso-alt: |
-    ` ¡ ™ £ ¢ § ˆ ¶ • ª º – ≠
-    œ ˙ ´ ® þ ¥ ¨ ʼ ø , “ ‘
-    ¯ ß ð ƒ © ˍ ˝ ˚ - … æ «
-    § ˀ . ¸ ˇ ˘ ˜ ˛ ≤ ≥ ÷
+    ≤ © @ £ $ ‸ § | [ ] ˝ ± \u{301}
+    • , é ˇ þ ˘ ˀ ʼ œ ˙ ˚ \u{308}
+    ¯ ß ð ƒ . ˛ \u{A0}\u{330} ˜ - ø æ ™
+    ¶ ÷ ˍ ¸ ‹ › ‘ ’ ‚ … –
   # opt+shift+cmd?+caps?
   iso-alt+shift: |
-    \u{300} ⁄ € ‹ › † \u{302} ‡ ° · ‚ — ±
-    Œ \u{307} \u{301} ‰ Þ \u{A0}\u{30F} \u{308} \u{31B} Ø \u{326} ” ’
-    \u{304} \u{A0}\u{311} Ð \u{A0}\u{330} ‸ \u{331} \u{30B} \u{30A} \u{335} № Æ »
-    ± \u{309} \u{323} \u{327} \u{30C} \u{306} \u{303} \u{328} „ ʔ ¿
+    ≥ ¡ ” ¥ ¢ \u{32D} ¶ \ { } \u{30B} ¿ \u{300}
+    ° \u{326} É \u{30C} Þ \u{306} \u{309} \u{31B} Œ \u{307} \u{30A} \u{302}
+    \u{304} № Ð ʔ \u{323} \u{328} \u{330} \u{303} \u{335} Ø Æ ®
+    • ⁄ \u{331} \u{327} « » “ ” „ · —
   # opt+caps
   iso-caps+alt: |
-    ` ¡ ™ £ ¢ § ˆ ¶ • ª º – ≠
-    Œ ˙ ´ ® Þ ¥ ¨ ʼ Ø , “ ‘
-    ¯ SS Ð ƒ © ˍ ˝ ˚ - … Æ «
-    § ˀ . ¸ ˇ ˘ ˜ ˛ ≤ ≥ ÷
+    ≤ © ™ £ € ‸ § | [ ] ˝ ± \u{301}
+    • , É ˇ Þ ˘ ˀ ʼ Œ ˙ ˚ \u{308}
+    ¯ SS Ð ƒ . ˛ \u{A0}\u{330} ˜ - Ø Æ '
+    ' ÷ ˍ ¸ ‹ › ‘ ’ ‚ … –
   # ctrlL+cmd?+optL?+caps?+shift? ctrlL+optR+cmd?+optL?+caps?+shiftL?
   iso-ctrl: |
     ` 1 2 3 4 5 6 7 8 9 0 \u{1F} =
@@ -54,45 +54,21 @@ modes:
     0 \u{1A} \u{18} \u{3} \u{16} \u{2} \u{E} \u{D} , . /
   # cmd+opt+caps?
   osx-cmd+alt: |
-    ` ¡ ™ £ ¢ § ˆ ¶ • ª º – ≠
-    œ ˙ ´ ® þ ¥ ¨ ’ ø , “ ‘
-    ¯ ß ð ƒ © ˍ ˝ ˚ - … æ «
-    § ’ . ¸ ˇ ˘ ˜ ˛ ≤ ≥ ÷
+    ≤ © ™ £ € § \u{0} | [ ] ≈ ± `
+    • , é \u{0} ŧ µ ü ı œ þ ˙ ˜
+    ¯ ß ð ƒ \u{0} ħ ˝ ª ł ö ä '
+    € ÷ đ ¸ ‹ › ‘ ’ ‚ … –
 
 deadKeys:
-  iso-alt: [',', '-', '.', '`', '¨', '¯', '´', '¸', 'ʼ', 'ˀ', 'ˆ', 'ˇ', 'ˍ', '˘', '˙', '˚', '˛', '˜', '˝']
-  iso-alt+shift: ['ʔ', '‸', '№']
-  iso-caps+alt: [',', '-', '.', '`', '¨', '¯', '´', '¸', 'ʼ', 'ˀ', 'ˆ', 'ˇ', 'ˍ', '˘', '˙', '˚', '˛', '˜', '˝']
+  iso-default: ['¨', '´']
+  iso-shift: ['`', 'ˆ']
+  iso-caps: ['¨', '´']
+  iso-alt: [',', '-', '.', '¯', '¸', 'ʼ', 'ˀ', 'ˇ', 'ˍ', '˘', '˙', '˚', '˛', '˜', '˝', '‸']
+  iso-alt+shift: ['ʔ', '№']
+  iso-caps+alt: [',', '-', '.', '¯', '¸', 'ʼ', 'ˀ', 'ˇ', 'ˍ', '˘', '˙', '˚', '˛', '˜', '˝', '‸']
+  osx-cmd+alt: [',', '¯', '¸', '˙', '˜', '˝']
 
 transforms:
-  \u{A0}\u{30F}:
-    " ": \u{A0}\u{30F}
-    a: ȁ
-    A: Ȁ
-    e: ȅ
-    E: Ȅ
-    i: ȉ
-    I: Ȉ
-    o: ȍ
-    O: Ȍ
-    r: ȑ
-    R: Ȑ
-    u: ȕ
-    U: Ȕ
-  \u{A0}\u{311}:
-    " ": \u{A0}\u{311}
-    a: ȃ
-    A: Ȃ
-    e: ȇ
-    E: Ȇ
-    i: ȋ
-    I: Ȋ
-    o: ȏ
-    O: Ȏ
-    r: ȓ
-    R: Ȓ
-    u: ȗ
-    U: Ȗ
   \u{A0}\u{330}:
     " ": \u{A0}\u{330}
     e: ḛ
@@ -205,8 +181,6 @@ transforms:
     " ": ´
     a: á
     A: Á
-    æ: ǽ
-    Æ: Ǽ
     c: ć
     C: Ć
     e: é
@@ -225,8 +199,6 @@ transforms:
     N: Ń
     o: ó
     O: Ó
-    ø: ǿ
-    Ø: Ǿ
     p: ṕ
     P: Ṕ
     r: ŕ
@@ -243,8 +215,14 @@ transforms:
     Y: Ý
     z: ź
     Z: Ź
+    å: ǻ
+    Å: Ǻ
+    æ: ǽ
+    Æ: Ǽ
+    ø: ǿ
+    Ø: Ǿ
   ˜:
-    " ": ˜
+    " ": "~"
     a: ã
     A: Ã
     e: ẽ
@@ -265,8 +243,6 @@ transforms:
     " ": ¯
     a: ā
     A: Ā
-    æ: ǣ
-    Æ: Ǣ
     e: ē
     E: Ē
     g: ḡ
@@ -289,6 +265,8 @@ transforms:
     Y: Ȳ
     z: z\u{304}
     Z: Z\u{304}
+    æ: ǣ
+    Æ: Ǣ
   ˘:
     " ": ˘
     a: ă
@@ -428,7 +406,7 @@ transforms:
     u: ų
     U: Ų
   ˆ:
-    " ": ˆ
+    " ": ^
     a: â
     A: Â
     c: ĉ
@@ -521,22 +499,11 @@ transforms:
     Z: Ẕ
   №:
     " ": №
-    "'": ʹ
-    ‘: ʻ
-    ’: ʼ
-    '"': ʺ
-    “: ʽ
-    "@": Ƨ
-    "*": Ȣ
-    "#": Ɛ
-    "%": Ƽ
-    ^: Ƅ
     2: ƨ
     3: ɛ
     5: ƽ
     6: ƅ
     7: ⁊
-    8: ȣ
     a: ə
     A: Ə
     c: ɔ
@@ -628,6 +595,7 @@ transforms:
 
 special:
   space:
+    iso-caps: \u{A0}
     iso-alt: \u{A0}
     iso-alt+shift: \u{A0}
     iso-caps+alt: \u{A0}
