@@ -3,21 +3,24 @@ internalName: izh
 locales:
   en:
     name: &bundleName "Ingrian Keyboards"
-    description: "Mobile OS keyboards for the Ingrian language from the Divvun group at UiT."
+    description: "Keyboards for Ingrian from the Divvun group at UiT."
+  izh:
+    name: &bundleName "Ingrian Keyboards (replace with real Ingrian text)"
+    description: "Keyboards for Ingrian from the Divvun group at UiT."
   nb:
-    name: "Ingrian tastatur"
-    description: "Mobiltastatur for Ingrian fra Divvun-gruppa."
+    name: "Ingriske tastatur"
+    description: "Tastatur for ingrisk fra Divvun-gruppa ved UiT."
 
 author: The Divvun Group, UiT Norgga árktalaš universitehta
 email: feedback@divvun.no
 
-copyright: (c) 2017 Divvun/Giellatekno/UiT
+copyright: (c) 2019 Divvun/Giellatekno/UiT
 organisation: UiT Norgga árktalaš universitehta
 
 layouts:
   - izh-mob
-  - izh-mac
-  - izh-win
+  - izh_FI-mac
+  - izh_FI-win
 
 version: 1.0
 build: 1
@@ -46,4 +49,4 @@ targets:
     appName: *bundleName
     version: 0.1.0
     url: "http://divvun.no"
-    uuid: "replace-with-real-uuid-one-for-each-language"
+    uuid: "B1D43744-C41E-411B-ABC5-B7CBFEDB288B"
