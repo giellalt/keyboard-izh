@@ -1,0 +1,49 @@
+internalName: izh
+
+locales:
+  en:
+    name: &bundleName "Ingrian Keyboards"
+    description: "Mobile OS keyboards for the Ingrian language from the Divvun group at UiT."
+  nb:
+    name: "Ingrian tastatur"
+    description: "Mobiltastatur for Ingrian fra Divvun-gruppa."
+
+author: The Divvun Group, UiT Norgga árktalaš universitehta
+email: feedback@divvun.no
+
+copyright: (c) 2017 Divvun/Giellatekno/UiT
+organisation: UiT Norgga árktalaš universitehta
+
+layouts:
+  - izh-mob
+  - izh-mac
+  - izh-win
+
+version: 1.0
+build: 1
+
+targets:
+  android:
+    packageId: no.uit.giella.keyboards.izh
+    icon: images/izh-icon.pdf
+    keyStore: $GTPRIV/admin/dev-accounts/dev_keys/sami_keyboard.keystore
+    keyAlias: sami_keyboard
+
+  ios: &AppleID
+    codeSignId: "Developer ID Installer: The University of Tromso (2K5J2584NX)"
+    provisioningProfileId: Test
+    packageId: no.uit.giella.keyboards.izh
+    bundleName: *bundleName
+    icon: images/izh-icon.png
+
+  osx:
+    <<: *AppleID
+    icon: images/izh-keyboard-menu-icon.png
+    version: 0.1.0
+    resources: doc
+
+  win:
+    appName: *bundleName
+    version: 0.1.0
+    url: "http://divvun.no"
+    uuid: "replace-with-real-uuid-one-for-each-language"
