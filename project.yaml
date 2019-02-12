@@ -21,6 +21,8 @@ layouts:
   - izh-mob
   - izh_FI-mac
   - izh_FI-win
+  - izh_EE-mac
+  - izh_EE-win
 
 version: 1.0
 build: 1
