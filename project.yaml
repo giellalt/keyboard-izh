@@ -5,7 +5,7 @@ locales:
     name: &bundleName "Ingrian Keyboards"
     description: "Keyboards for Ingrian from the Divvun group at UiT."
   izh:
-    name: &bundleName "Ingrian Keyboards (replace with real Ingrian text)"
+    name: "Ingrian Keyboards (replace with real Ingrian text)"
     description: "Keyboards for Ingrian from the Divvun group at UiT."
   nb:
     name: "Ingriske tastatur"
