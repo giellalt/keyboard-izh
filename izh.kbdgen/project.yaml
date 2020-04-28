@@ -1,0 +1,14 @@
+locales:
+  en:
+    name: Ingrian Keyboards
+    description: Keyboards for Ingrian from the Divvun group at UiT.
+  izh:
+    name: Ingrian Keyboards (replace with real Ingrian text)
+    description: Keyboards for Ingrian from the Divvun group at UiT.
+  nb:
+    name: Ingriske tastatur
+    description: Tastatur for ingrisk fra Divvun-gruppa ved UiT.
+author: 'The Divvun Group, UiT Norgga árktalaš universitehta'
+copyright: (c) 2019 Divvun/Giellatekno/UiT
+email: feedback@divvun.no
+organisation: UiT Norgga árktalaš universitehta
