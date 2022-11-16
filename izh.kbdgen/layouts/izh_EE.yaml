@@ -1,92 +1,116 @@
 displayNames:
   izh: Ingrian
   en: Ingrian
-modes:
-  mac:
-    default: |
-      ˇ 1 2 3 4 5 6 7 8 9 0 + '
-      q w e r t y u i o p ü õ
-      a s d f g h j k l ö ä '
-      < z x c v b n m , . -
-    shift: |
-      ~ ! " # € % & / ( ) = ? –
-      Q W E R T Y U I O P Ü Õ
-      A S D F G H J K L Ö Ä *
-      > Z X C V B N M ; : _
-    caps: |
-      § 1 2 3 4 5 6 7 8 9 0 + ę
-      Q W E R T Y U I O P Ü Õ
-      A S D F G H J K L Ö Ä '
-      < Z X C V B N M , . -
-    alt: |
-      ¶ © @ £ $ \u{0} § { [ ] } \ ¨
-      • \u{0} é ® † \u{0} \u{0} \u{0} \u{0} \u{0} ű §
-      \u{0} š ∂ \u{0} \u{0} \u{0} √ \u{0} ß ő \u{0} ™
-      | ž \u{0} č ‹ › ‚ ‘ ’ … –
-    alt+shift: |
-      • \u{0} ” \u{0} \u{0} \u{0} ¶ \u{0} ≤ ≥ ≠ \u{0} ˇ
-      ° \u{0} É √ \u{0} \u{0} \u{0} ˇ \u{0} \u{0} Ű ~
-      ◊ Š ∆ \u{0} \u{0} \u{0} ¬ \u{0} ∑ Ő \u{0} ’
-      | Ž ≠ Č « » „ “ ” ÷ —
-    caps+alt: |
-      ¶ © ™ £ $ į § | [ ] Ň Ī ę
-      • Ĺ É ® † Ķ Ü ű ő Ļ ķ ~
-      ū Š ∂ ń Ł Ģ √ Ľ ř Į ģ @
-      ≤ Ž Ň ā ‹ › ‘ ’ ‚ … –
-    ctrl: |
-      < 1 2 3 4 5 6 7 8 9 0 + ę
-      \u{11} \u{17} \u{5} \u{12} \u{14} \u{19} \u{15} \u{9} \u{F} \u{10} \u{1D} \u{1E}
-      \u{1} \u{13} \u{4} \u{6} \u{7} \u{8} \u{D} \u{B} \u{C} \u{1C} \u{1B} '
-      < \u{1A} \u{18} \u{3} \u{16} \u{2} \u{E} \u{D} , . \u{1F}
-    cmd+alt: |
-      ¶ © @ £ $ \u{20} § { [ ] } \ ¨
-      • \u{20} é ® † \u{20} \u{20} \u{20} \u{20} \u{20} ű §
-      \u{20} š ∂ \u{20} \u{20} \u{20} √ \u{20} ß ő \u{20} ™
-      | ž \u{20} č ‹ › ‚ ‘ ’ … –
-    cmd: |
-      § 1 2 3 4 5 6 7 8 9 0 - =
-      q w e r t y u i o p [ ]
-      a s d f g h j k l ; ' \
-      ` z x c v b n m , . /
-  win:
-    default: |
-      ˇ 1 2 3 4 5 6 7 8 9 0 + ´
-      q w e r t y u i o p ü õ
-      a s d f g h j k l ö ä '
-      < z x c v b n m , . -
-    shift: |
-      ~ ! " # ¤ % & / ( ) = ? `
-      Q W E R T Y U I O P Ü Õ
-      A S D F G H J K L Ö Ä *
-      > Z X C V B N M ; : _
-    caps: |
-      ˇ 1 2 3 4 5 6 7 8 9 0 + ´
-      Q W E R T Y U I O P Ü Õ
-      A S D F G H J K L Ö Ä '
-      < Z X C V B N M , . -
-    caps+shift: |
-      ~ ! " # ¤ % & / ( ) = ? `
-      q w e r t y u i o p ü õ
-      a s d f g h j k l ö ä *
-      > z x c v b n m ; : _
-    alt: |
-      \u{0} \u{0} @ £ $ € \u{0} { [ ] } \ \u{0}
-      \u{0} \u{0} € \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} §
-      \u{0} š \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} ^ ½
-      | ž \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0}
-    alt+shift: |
-      \u{0} \u{0} @ £ $ \u{0} \u{0} { [ ] } \ \u{0}
-      \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} §
-      \u{0} Š \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} ^ ½
-      | Ž \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0}
-    ctrl: |
-      \u{1C} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0}
-      \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0}
-      \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{1B} \u{1D} \u{0}
-      \u{1C} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0}
+macOS:
+  primary:
+    layers:
+      default: |
+        ˇ 1 2 3 4 5 6 7 8 9 0 + '
+        q w e r t y u i o p ü õ
+        a s d f g h j k l ö ä '
+        < z x c v b n m , . -
+      shift: |
+        ~ ! " # € % & / ( ) = ? –
+        Q W E R T Y U I O P Ü Õ
+        A S D F G H J K L Ö Ä *
+        > Z X C V B N M ; : _
+      caps: |
+        § 1 2 3 4 5 6 7 8 9 0 + ę
+        Q W E R T Y U I O P Ü Õ
+        A S D F G H J K L Ö Ä '
+        < Z X C V B N M , . -
+      alt: |
+        ¶ © @ £ $ \u{0} § { [ ] } \ ¨
+        • \u{0} é ® † \u{0} \u{0} \u{0} \u{0} \u{0} ű §
+        \u{0} š ∂ \u{0} \u{0} \u{0} √ \u{0} ß ő \u{0} ™
+        | ž \u{0} č ‹ › ‚ ‘ ’ … –
+      alt+shift: |
+        • \u{0} ” \u{0} \u{0} \u{0} ¶ \u{0} ≤ ≥ ≠ \u{0} ˇ
+        ° \u{0} É √ \u{0} \u{0} \u{0} ˇ \u{0} \u{0} Ű ~
+        ◊ Š ∆ \u{0} \u{0} \u{0} ¬ \u{0} ∑ Ő \u{0} ’
+        | Ž ≠ Č « » „ “ ” ÷ —
+      ctrl: |
+        < 1 2 3 4 5 6 7 8 9 0 + ę
+        \u{11} \u{17} \u{5} \u{12} \u{14} \u{19} \u{15} \u{9} \u{F} \u{10} \u{1D} \u{1E}
+        \u{1} \u{13} \u{4} \u{6} \u{7} \u{8} \u{D} \u{B} \u{C} \u{1C} \u{1B} '
+        < \u{1A} \u{18} \u{3} \u{16} \u{2} \u{E} \u{D} , . \u{1F}
+      cmd+alt: |
+        ¶ © @ £ $ \u{20} § { [ ] } \ ¨
+        • \u{20} é ® † \u{20} \u{20} \u{20} \u{20} \u{20} ű §
+        \u{20} š ∂ \u{20} \u{20} \u{20} √ \u{20} ß ő \u{20} ™
+        | ž \u{20} č ‹ › ‚ ‘ ’ … –
+      cmd: |
+        § 1 2 3 4 5 6 7 8 9 0 - =
+        q w e r t y u i o p [ ]
+        a s d f g h j k l ; ' \
+        ` z x c v b n m , . /
+      alt+caps: |
+        ¶ © ™ £ $ į § | [ ] Ň Ī ę
+        • Ĺ É ® † Ķ Ü ű ő Ļ ķ ~
+        ū Š ∂ ń Ł Ģ √ Ľ ř Į ģ @
+        ≤ Ž Ň ā ‹ › ‘ ’ ‚ … –
+  space:
+    alt: \u{A0}
+    alt+shift: \u{A0}
+    cmd+alt: \u{A0}
+    alt+caps: \u{A0}
+  deadKeys:
+    default: ['''', 'ˇ']
+    shift: ['~', '–']
+    caps: ['ę']
+    alt: ['¨']
+    alt+shift: ['~', 'ˇ']
+    cmd+alt: [',', '¯', '¸', '˙', '˜', '˝']
+    alt+caps: ['~']
+windows:
+  config:
+    legacyName: izh_ee-win
+  primary:
+    layers:
+      default: |
+        ˇ 1 2 3 4 5 6 7 8 9 0 + ´
+        q w e r t y u i o p ü õ
+        a s d f g h j k l ö ä '
+        < z x c v b n m , . -
+      shift: |
+        ~ ! " # ¤ % & / ( ) = ? `
+        Q W E R T Y U I O P Ü Õ
+        A S D F G H J K L Ö Ä *
+        > Z X C V B N M ; : _
+      caps: |
+        ˇ 1 2 3 4 5 6 7 8 9 0 + ´
+        Q W E R T Y U I O P Ü Õ
+        A S D F G H J K L Ö Ä '
+        < Z X C V B N M , . -
+      caps+shift: |
+        ~ ! " # ¤ % & / ( ) = ? `
+        q w e r t y u i o p ü õ
+        a s d f g h j k l ö ä *
+        > z x c v b n m ; : _
+      alt: |
+        \u{0} \u{0} @ £ $ € \u{0} { [ ] } \ \u{0}
+        \u{0} \u{0} € \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} §
+        \u{0} š \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} ^ ½
+        | ž \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0}
+      alt+shift: |
+        \u{0} \u{0} @ £ $ \u{0} \u{0} { [ ] } \ \u{0}
+        \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} §
+        \u{0} Š \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} ^ ½
+        | Ž \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0}
+      ctrl: |
+        \u{1C} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0}
+        \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0}
+        \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{1B} \u{1D} \u{0}
+        \u{1C} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0}
+  deadKeys:
+    default: ['´', 'ˇ']
+    shift: ['`', '~']
+    caps: ['´', 'ˇ']
+    caps+shift: ['`', '~']
+    alt: ['^']
 transforms:
   '\u{A0}\u{330}':
-    ' ': '\u{A0}\u{330}'
+    ' ': \u{A0}\u{330}
     e: ḛ
     E: Ḛ
     i: ḭ
@@ -119,8 +143,8 @@ transforms:
     S: Ș
     t: ț
     T: Ț
-  .:
-    ' ': .
+  '.':
+    ' ': '.'
     a: ạ
     A: Ạ
     b: ḅ
@@ -265,22 +289,22 @@ transforms:
     G: Ḡ
     i: ī
     I: Ī
-    l: 'l\u{323}\u{304}'
-    L: 'L\u{323}\u{304}'
+    l: l\u{323}\u{304}
+    L: L\u{323}\u{304}
     o: ō
     O: Ō
-    r: 'r\u{323}\u{304}'
-    R: 'R\u{323}\u{304}'
-    s: 's\u{304}'
-    S: 'S\u{304}'
+    r: r\u{323}\u{304}
+    R: R\u{323}\u{304}
+    s: s\u{304}
+    S: S\u{304}
     u: ū
     U: Ū
     v: ǖ
     V: Ǖ
     'y': ȳ
     'Y': Ȳ
-    z: 'z\u{304}'
-    Z: 'Z\u{304}'
+    z: z\u{304}
+    Z: Z\u{304}
     æ: ǣ
     Æ: Ǣ
   ˘:
@@ -354,7 +378,7 @@ transforms:
     o: ö
     O: Ö
     t: ẗ
-    T: 'T\u{308}'
+    T: T\u{308}
     u: ü
     U: Ü
     w: ẅ
@@ -373,16 +397,16 @@ transforms:
     ' ': ˚
     a: å
     A: Å
-    e: 'e\u{30A}'
-    E: 'E\u{30A}'
-    o: 'o\u{30A}'
-    O: 'O\u{30A}'
+    e: e\u{30A}
+    E: E\u{30A}
+    o: o\u{30A}
+    O: O\u{30A}
     u: ů
     U: Ů
     w: ẘ
-    W: 'W\u{30A}'
+    W: W\u{30A}
     'y': ẙ
-    'Y': 'Y\u{30A}'
+    'Y': Y\u{30A}
   ˝:
     ' ': ˝
     o: ő
@@ -413,8 +437,8 @@ transforms:
     S: Ş
     t: ţ
     T: Ţ
-    z: 'z\u{327}'
-    Z: 'Z\u{327}'
+    z: z\u{327}
+    Z: Z\u{327}
   ˛:
     ' ': ˛
     a: ą
@@ -443,10 +467,10 @@ transforms:
     I: Î
     j: ĵ
     J: Ĵ
-    m: 'm\u{302}'
-    M: 'M\u{302}'
-    'n': 'n\u{302}'
-    'N': 'N\u{302}'
+    m: m\u{302}
+    M: M\u{302}
+    'n': n\u{302}
+    'N': N\u{302}
     o: ô
     O: Ô
     s: ŝ
@@ -476,7 +500,7 @@ transforms:
     i: ǐ
     I: Ǐ
     j: ǰ
-    J: 'J\u{30C}'
+    J: J\u{30C}
     k: ǩ
     K: Ǩ
     l: ľ
@@ -495,8 +519,8 @@ transforms:
     U: Ǔ
     v: ǚ
     V: Ǚ
-    x: 'ʒ\u{30C}'
-    X: 'Ʒ\u{30C}'
+    x: ʒ\u{30C}
+    X: Ʒ\u{30C}
     z: ž
     Z: Ž
   ˍ:
@@ -506,7 +530,7 @@ transforms:
     d: ḏ
     D: Ḏ
     h: ẖ
-    H: 'H\u{331}'
+    H: H\u{331}
     k: ḵ
     K: Ḵ
     l: ḻ
@@ -678,8 +702,8 @@ transforms:
     R: Ŗ
     u: ū
     U: Ū
-  '''':
-    ' ': ''''
+  "'":
+    ' ': "'"
     a: á
     A: Á
     c: ć
@@ -716,27 +740,4 @@ transforms:
     O: Ó
     u: ú
     U: Ú
-space:
-  mac:
-    alt: '\u{A0}'
-    alt+shift: '\u{A0}'
-    caps+alt: '\u{A0}'
-    cmd+alt: '\u{A0}'
-deadKeys:
-  mac:
-    default: ['''', ˇ]
-    shift: ['~', –]
-    caps: [ę]
-    alt: [¨]
-    alt+shift: ['~', ˇ]
-    caps+alt: ['~']
-    cmd+alt: [',', ¯, ¸, ˙, ˜, ˝]
-  win:
-    default: [´, ˇ]
-    shift: ['`', '~']
-    caps: [´, ˇ]
-    caps+shift: ['`', '~']
-    alt: [^]
-targets:
-  win:
-    legacyName: izh_ee-win
+
