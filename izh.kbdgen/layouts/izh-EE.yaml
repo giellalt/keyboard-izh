@@ -1,6 +1,7 @@
 displayNames:
-  izh: Ingrian
-  en: Ingrian
+  izh-EE: Ingrian (Estonia)
+  izh: Ingrian (Estonia)
+  en: Ingrian (Estonia)
 macOS:
   primary:
     layers:
