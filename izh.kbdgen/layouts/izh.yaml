@@ -1,6 +1,7 @@
 displayNames:
   izh: Ingrian
   en: Ingrian
+
 longpress:
   Á: Q
   A: Æ Ä Å
@@ -10,6 +11,7 @@ longpress:
   a: æ ä å
   č: x
   o: ø ö
+
 keyNames:
   space: gaska
   return: linnjámolsun
