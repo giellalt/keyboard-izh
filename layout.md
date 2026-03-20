@@ -1,13 +1,33 @@
-# Keyboard layout(s) for Ingrian
+---
+layout: default
+---
 
-**Legend:**
+# Keyboard layouts for Ingrian
 
-| Mode       | Default | AltGr/Option | Caps Lock (Mode Switch) | Caps Lock + AltGr/Option |
-| ----------:|:-------:|:------------:|:-----------------------:|:------------------------:|
-|**Standard**| black   | red          | blue                    | purple                   |
-|**Deadkey** | green   | orange       | pink                    | green                    |
+> Tip: These keyboards are interactive — click or tap keys to explore different layers (Shift, Alt, etc.)
 
+## Mac (Estonia)
 
-# Keyboard Layouts
+<iframe src="https://keyboard.giellalt.org/embed?kbd=izh&layout=izh-EE&platform=macOS&variant=primary"></iframe>
 
-No keyboard layout defined yet!
+## Windows (Estonia)
+
+<iframe src="https://keyboard.giellalt.org/embed?kbd=izh&layout=izh-EE&platform=windows&variant=primary"></iframe>
+
+## Mac (Finland)
+
+<iframe src="https://keyboard.giellalt.org/embed?kbd=izh&layout=izh-FI&platform=macOS&variant=primary"></iframe>
+
+## Windows (Finland)
+
+<iframe src="https://keyboard.giellalt.org/embed?kbd=izh&layout=izh-FI&platform=windows&variant=primary"></iframe>
+
+## Android
+
+### Phone
+
+<iframe src="https://keyboard.giellalt.org/embed?kbd=izh&layout=izh&platform=android&variant=primary"></iframe>
+
+### Tablet
+
+<iframe src="https://keyboard.giellalt.org/embed?kbd=izh&layout=izh&platform=android&variant=tablet-600"></iframe>
